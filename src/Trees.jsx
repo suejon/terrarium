@@ -33,6 +33,12 @@ export const Trees = forwardRef((props, ref) => {
           uniforms={uniforms}
         />
       </mesh>
+      <mesh
+        position={[0.33, -1.05, -0.68]}
+      >
+        <cylinderGeometry args={[0.5, 0.5, 4, 16]} />
+        <meshBasicMaterial color={0x654321} />
+      </mesh>
     </group>
   );
 });
